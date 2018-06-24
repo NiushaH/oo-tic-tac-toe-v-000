@@ -6,8 +6,6 @@ class TicTacToe
  
  p "Welcome to TicTacToe!"
  
- display_board
- 
  WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
@@ -27,6 +25,8 @@ class TicTacToe
     puts "-----------"
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
+
+display_board
 
 
   def input_to_index(user_input)
