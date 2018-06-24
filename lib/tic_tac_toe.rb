@@ -6,6 +6,8 @@ class TicTacToe
  
  p "Welcome to TicTacToe!"
  
+ display_board
+ 
  WIN_COMBINATIONS = [
   [0,1,2],
   [3,4,5],
